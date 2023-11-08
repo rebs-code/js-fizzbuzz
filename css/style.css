@@ -1,5 +1,41 @@
+/* common */
+
 body {
     background-color: #083b4c;
+}
+
+/* list style */
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+/* bg styles */
+
+.bg-fizzbuzz {
+    background-color: #f0466f;
+}
+
+.bg-fizz {
+    background-color: #0cd6a1;
+}
+
+.bg-buzz {
+    background-color: #ffd166;
+}
+
+.bg-number {
+    background-color: #1389b2;
 }
