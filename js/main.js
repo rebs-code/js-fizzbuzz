@@ -13,8 +13,6 @@ const ulElement = document.createElement('ul');
 //append ul to div with class main-container
 divElement.appendChild(ulElement);
 
-
-
 for (let i = 1; i <= 100; i++) {
     // create li to be appended to ul
     const liElement = document.createElement('li');
@@ -23,7 +21,6 @@ for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         liElement.textContent = "FizzBuzz";
         liElement.classList.add('bg-fizzbuzz');
-        console.log("FizzBuzz");
     } else if (i % 3 === 0) {
         liElement.textContent = "Fizz";
         liElement.classList.add('bg-fizz');
@@ -37,4 +34,4 @@ for (let i = 1; i <= 100; i++) {
     
     // append the li item to ul
     ulElement.appendChild(liElement);
-}
+};
